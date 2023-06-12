@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(144, 129, 129);
+}
+
+#place-for-content {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: auto;
+}
+
+.item {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.cover-image {
+    width: 95%;
+    margin: auto;
+    
+}
+
+img{
+    width: 70%;
+    height: auto;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: dotted;
+    color: black;
+    text-align: center;
+    margin: 15px;
+}
